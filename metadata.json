@@ -1,0 +1,6 @@
+{
+  "name": "دستیار رصد و مانیتور Stage 1 پوکر",
+  "description": "سامانه هوشمند و جامع ثبت، رصد، تحلیل آماری و استراتژی هوش مصنوعی تورنمنت‌های شبانه‌روزی Stage 1 پوکر با تقویم شمسی و تم دارک",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

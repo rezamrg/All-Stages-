@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  stage1-poker-assistant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: stage1_poker_assistant
+    ports:
+      - "3000:80"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
